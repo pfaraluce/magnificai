@@ -69,7 +69,7 @@ export function SinCard({ sin, index }: SinCardProps) {
             {sin.quote}
           </p>
           <div className="mt-3 flex justify-end gap-1 font-mono text-xs font-semibold text-zinc-500" dir="ltr">
-            [PAPA LEÓN XIV,
+            [{t.labels.pope},
             {sin.referenceLink ? (
               <a 
                 href={sin.referenceLink}
