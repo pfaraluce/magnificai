@@ -1,0 +1,6 @@
+{
+  "name": "Sobrevivir a Babel",
+  "description": "Una guía práctica ilustrada y moderna para los jóvenes, basada en la encíclica Magnifica Humanitatis sobre los peligros éticos de la Inteligencia Artificial.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
