@@ -94,7 +94,8 @@ export const translations: Record<Language, any> = {
     labels: {
       riskNum: "RIESGO",
       yourRisk: "Tu Riesgo",
-      antidote: "El Antídoto"
+      antidote: "El Antídoto",
+      pope: "PAPA LEÓN XIV"
     },
     decision: {
       title: "La Decisión es Tuya",
@@ -211,7 +212,8 @@ export const translations: Record<Language, any> = {
     labels: {
       riskNum: "RISK",
       yourRisk: "Your Risk",
-      antidote: "The Antidote"
+      antidote: "The Antidote",
+      pope: "POPE LEO XIV"
     },
     decision: {
       title: "The Decision is Yours",
@@ -328,7 +330,8 @@ export const translations: Record<Language, any> = {
     labels: {
       riskNum: "RISQUE",
       yourRisk: "Votre Risque",
-      antidote: "L'Antidote"
+      antidote: "L'Antidote",
+      pope: "PAPE LÉON XIV"
     },
     decision: {
       title: "La Décision est Vôtre",
@@ -445,7 +448,8 @@ export const translations: Record<Language, any> = {
     labels: {
       riskNum: "RISCHIO",
       yourRisk: "Il Tuo Rischio",
-      antidote: "L'Antidoto"
+      antidote: "L'Antidoto",
+      pope: "PAPA LEONE XIV"
     },
     decision: {
       title: "La Decisione è Tua",
@@ -562,7 +566,8 @@ export const translations: Record<Language, any> = {
     labels: {
       riskNum: "RISCO",
       yourRisk: "O Teu Risco",
-      antidote: "O Antídoto"
+      antidote: "O Antídoto",
+      pope: "PAPA LEÃO XIV"
     },
     decision: {
       title: "A Decisão é Tua",
@@ -679,7 +684,8 @@ export const translations: Record<Language, any> = {
     labels: {
       riskNum: "RISIKO",
       yourRisk: "Dein Risiko",
-      antidote: "Das Gegenmittel"
+      antidote: "Das Gegenmittel",
+      pope: "PAPST LEO XIV."
     },
     decision: {
       title: "Die Entscheidung liegt bei dir",
@@ -796,7 +802,8 @@ export const translations: Record<Language, any> = {
     labels: {
       riskNum: "RYZYKO",
       yourRisk: "Twoje Ryzyko",
-      antidote: "Antidotum"
+      antidote: "Antidotum",
+      pope: "PAPIEŻ LEON XIV"
     },
     decision: {
       title: "Wybór należy do ciebie",
@@ -913,7 +920,8 @@ export const translations: Record<Language, any> = {
     labels: {
       riskNum: "خطر",
       yourRisk: "مخاطرتك",
-      antidote: "العلاج"
+      antidote: "العلاج",
+      pope: "البابا ليو الرابع عشر"
     },
     decision: {
       title: "القرار لك",
