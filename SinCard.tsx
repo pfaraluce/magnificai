@@ -66,7 +66,7 @@ export function SinCard({ sin, index }: SinCardProps) {
             "{sin.quote}"
           </p>
           <div className="mt-3 flex justify-end font-mono text-xs font-semibold text-zinc-500">
-            [PAPA LEÓN XIV, {" "}
+            [LEÓN XIV, {" "}
             <a 
               href={`https://www.vatican.va/content/leo-xiv/es/encyclicals/documents/20260515-magnifica-humanitas.html#${sin.reference.match(/\d+/)?.[0]}`}
               target="_blank"
