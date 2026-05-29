@@ -9,6 +9,7 @@ import { AiAddendum } from "./components/AiAddendum";
 import { DecisionCard } from "./components/DecisionCard";
 import { useLanguage } from "./i18n";
 import { motion } from "motion/react";
+import { Github } from "lucide-react";
 
 export default function App() {
   const { t } = useLanguage();
@@ -36,8 +37,18 @@ export default function App() {
         </section>
       </main>
       
-      <footer className="mt-12 px-4 md:px-8 text-center text-zinc-600 font-mono text-xs">
+      <footer className="mt-12 px-4 md:px-8 text-center text-zinc-600 font-mono text-xs flex flex-col items-center gap-4">
         <p dangerouslySetInnerHTML={{ __html: t.footer }}></p>
+        <a 
+          href="https://github.com/pfaraluce/magnificai" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-zinc-500 hover:text-zinc-300 transition-colors"
+          title="Ver código en GitHub"
+        >
+          <span className="sr-only">GitHub Repository</span>
+          <Github className="w-4 h-4" />
+        </a>
       </footer>
     </div>
   );
